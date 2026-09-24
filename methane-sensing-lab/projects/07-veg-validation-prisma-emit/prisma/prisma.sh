@@ -1,0 +1,1 @@
+python mag1c.py ./PRISMA/method_valid/PRS_L1_STD_OFFL_20210209072220_20210209072224_0001/swir --spec ../target_spectrum_swir.txt --out ../output/PRS_L1_STD_OFFL_20210209072220_20210209072224_0001_swir -o

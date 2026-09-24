@@ -1,0 +1,29 @@
+name: methane
+channels: [conda-forge, pytorch]
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - xarray
+  - rioxarray
+  - pyresample
+  - geopandas
+  - shapely
+  - rasterio
+  - netcdf4
+  - dask
+  - pytorch
+  - pytorch-cuda=12.1  # GPU 可选
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - hydra-core
+  - pydantic
+  - loguru
+  - pytest
+  - black
+  - ruff=0.15.7
+  - pip
+  - pip:
+      - lightning
+      - rich

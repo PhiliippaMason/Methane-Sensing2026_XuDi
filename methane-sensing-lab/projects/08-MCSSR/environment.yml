@@ -1,0 +1,10 @@
+name: ai-methane-detection
+channels: [conda-forge, pytorch]
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - numpy
+  - pyyaml
+  - pip:
+      - opencv-python
